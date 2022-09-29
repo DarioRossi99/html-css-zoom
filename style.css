@@ -38,12 +38,13 @@
 
 body{ 
     display:flex; 
-    flex-direction:column; 
+    flex-direction:column;
+    background-color: black; 
   }
 
 footer{
     background-color: rgb(33, 33, 33);
-    margin-top: auto;
+    margin-top: 1rem;
 }
 
 .footer-container {
@@ -75,8 +76,12 @@ footer{
     font-size: 12px;
 }
 
-
-
+.foot-nav{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(26, 26, 26);
+    display: flow-root;
+}
 
 
 
