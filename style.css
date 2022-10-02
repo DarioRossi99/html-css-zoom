@@ -59,8 +59,17 @@ footer{
 
 .footer-container {
     display: flex;
-    gap: 1rem;
-    padding-left: 1rem;
+    width: calc(100% / 3);
+    border: 1px solid red;
+    gap: 1.1rem;
+}
+
+.center{
+    display: flex;
+    width: calc(100% / 3);
+    border: 1px solid red;
+    gap: 1.1rem;
+    justify-content: center;
 }
 
 .icon-text {
@@ -87,10 +96,9 @@ footer{
 }
 
 .foot-nav{
-    margin: 0 auto;
+    display: flex;
     padding: 20px;
     background-color: rgb(26, 26, 26);
-    display: flow-root;
 }
 
 
