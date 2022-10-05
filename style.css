@@ -60,14 +60,12 @@ footer{
 .footer-container {
     display: flex;
     width: calc(100% / 3);
-    border: 1px solid red;
     gap: 1.1rem;
 }
 
 .center{
     display: flex;
     width: calc(100% / 3);
-    border: 1px solid red;
     gap: 1.1rem;
     justify-content: center;
 }
